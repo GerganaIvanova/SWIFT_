@@ -1,4 +1,4 @@
-package homework2;
+package homework_java3;
 
 public class Task1e_Print2dArray {
 
@@ -10,10 +10,9 @@ public class Task1e_Print2dArray {
 
         for (int i = 0; i < row; i++) {
             for (int b = 0; b < column; b++) {
-                //arr[i][j] = i * cplCount
                 arr[i][b] = index;
                 index++;
-                System.out.printf("%4d", arr[i][b]);
+                System.out.printf("%3d", arr[i][b]);
             }
             System.out.println();
         }
