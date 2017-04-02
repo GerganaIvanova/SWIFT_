@@ -14,9 +14,10 @@ public class Task2a_PrintMatrix {
         for (int i = 0; i < column; i++) {
             for (int b = 0; b < row; b++) {
                 arr[i][b] = index;
-                index++;
-                System.out.printf("%3d", arr[b][i]);
+                index +=column;
+                System.out.printf("%3d", arr[i][b]);
             }
+            index = 2 + i;
             System.out.println();
         }
     }
