@@ -25,6 +25,10 @@ public class Employee {
         this.email = email;
     }
     public void print() {
-        System.out.printf("%s, %s, %s,%s", this.name, this.position, this.department, this.email);
+        if(this.email != null){
+            System.out.printf("%s, %s, %s,%s", this.name, this.position, this.department, this.email);    
+        } else {
+            System.out.printf("%s, %s, %s", this.name, this.position, this.department);
+        }
     }
 }

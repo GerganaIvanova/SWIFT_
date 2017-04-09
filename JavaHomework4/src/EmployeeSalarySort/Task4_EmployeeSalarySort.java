@@ -8,9 +8,9 @@ public class Task4_EmployeeSalarySort {
 
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
-        double salary = sc.nextInt();
         String position = sc.nextLine();
         String department = sc.nextLine();
+        double salary = sc.nextInt();
         Employee person = new Employee(name, salary, position, department);
         
         person.print();
