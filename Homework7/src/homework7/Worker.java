@@ -3,11 +3,11 @@ package homework7;
 public class Worker extends Person {
 
     private double weekSalary;
-    private int workHoursPerDay;
+    private double workHoursPerDay;
     double daySalary;
     double hourSalary;
 
-    public Worker(String firstName, String lastName, double weekSalary, int workHoursPerDay) {
+    public Worker(String firstName, String lastName, double weekSalary, double workHoursPerDay) {
         super(firstName, lastName);
         this.weekSalary = weekSalary;
         this.workHoursPerDay = workHoursPerDay;
